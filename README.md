@@ -47,6 +47,8 @@ The project uses Snowflake as the warehouse layer. Raw CSV files are loaded into
 
 The dataset is synthetic, not actual company production data. It was generated from Stripe’s public documentation as the reference model for invoices, subscriptions, charges, balance transactions, payouts, refunds, and disputes, so the project can demonstrate realistic billing reconciliation logic without pretending to use private company records.
 
+<br><br>
+
 ## ➤ The Dataset :<br>
 
 The dataset is synthetic and covers the 2024 calendar year.
@@ -77,6 +79,8 @@ The dirty-data cases are deliberate.
 - Processor fee rates can drift and need to be measured, not assumed.
 
 All final analytical figures will be produced directly by the project’s own queries against the included synthetic dataset.
+
+<br><br>
 
 ## ➤ Skills Demonstrated:
 
@@ -128,10 +132,4 @@ All final analytical figures will be produced directly by the project’s own qu
 <br>
 """
 
-path = Path("/mnt/data/ledgerly_github_readme_following_sample.txt")
-path.write_text(content, encoding="utf-8")
-print(str(path))
 
-path = Path("/mnt/data/ledgerly_github_readme_draft.txt")
-path.write_text(content, encoding="utf-8")
-print(str(path))

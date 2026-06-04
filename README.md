@@ -9,7 +9,7 @@ A Snowflake analytics project using synthetic SaaS billing data generated from S
 <br><br>
 
 
-➤ Executive Summary :<br>
+*➤ Executive Summary :<br>
 **What the project was trying to find out**
 
 - Does Ledgerly’s billing system agree with the payment processor?
@@ -33,7 +33,7 @@ A Snowflake analytics project using synthetic SaaS billing data generated from S
 
 <br><br>
   
-➤ Project Scope:<br>
+*➤ Project Scope:<br>
 
 This project evaluates how a simulated B2B SaaS company reconciles subscription billing records against Stripe-style payment processor records.
 

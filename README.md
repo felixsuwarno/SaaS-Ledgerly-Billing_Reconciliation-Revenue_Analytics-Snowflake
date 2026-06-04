@@ -10,12 +10,29 @@ A Snowflake analytics project using synthetic SaaS billing data generated from S
 
 
 ➤ Executive Summary :<br>
+**What the project was trying to find out**
 
-Placeholder, to be written after analytics is completed.
+- Does Ledgerly’s billing system agree with the payment processor?
+- Can the June reconciliation gap be explained clearly enough for month-end close?
+- Which chargebacks landed in June but restated earlier closed periods?
+- How much June revenue was permanently lost after retries failed?
+- How did June MRR move compared with May?
+- Which signup cohorts are helping or hurting Net Revenue Retention?
+
+**What the data showed**
+
+- Pending — to be written after the analytics layer is completed
+
+**What the key numbers are**
+
+- Pending — to be written after the analytics layer is completed
+
+**What actions should follow**
+
+- Pending — to be written after the analytics layer is completed
 
 <br><br>
-
-
+  
 ➤ Project Scope:<br>
 
 This project evaluates how a simulated B2B SaaS company reconciles subscription billing records against Stripe-style payment processor records.
@@ -30,16 +47,13 @@ The project uses Snowflake as the warehouse layer. Raw CSV files are loaded into
 
 The dataset is synthetic, not actual company production data. It was generated from Stripe’s public documentation as the reference model for invoices, subscriptions, charges, balance transactions, payouts, refunds, and disputes, so the project can demonstrate realistic billing reconciliation logic without pretending to use private company records.
 
-<br><br>
-
-
 ➤ The Dataset :<br>
 
 The dataset is synthetic and covers the 2024 calendar year.
 
 It was generated to mirror the structure, relationships, and operational messiness of Stripe-style billing and processor data. The schema follows a SaaS billing workflow: customers subscribe to plans, invoices are created, charges attempt collection, balance transactions record processor-side money movement, payouts batch many transactions into bank deposits, and refunds or disputes create later adjustments.
 
-The analysis uses eight core tables.
+The analysis uses eight core tables covering customers, subscriptions, invoices, charges, balance transactions, payouts, disputes, and refunds.
 
 | Table | Rows | Grain |
 |---|---:|---|
@@ -64,15 +78,30 @@ The dirty-data cases are deliberate.
 
 All final analytical figures will be produced directly by the project’s own queries against the included synthetic dataset.
 
-<br><br>
-
-
 ➤ Skills Demonstrated:
 
-(Light Snowflake Setup • Warehouse Setup • Database Setup • Schema Setup • Stage Setup • File Format Setup • COPY INTO Data Loading • RAW/STAGING/ANALYTICS Structure • SQL Views • Billing Reconciliation • Payment Processor Settlement Logic • Chargeback Restatement Analysis • Failed-Payment Analysis • MRR Movement • Net Revenue Retention • Cohort Analysis)
+**Light Data Engineering**
+
+- Warehouse Setup
+- Database Setup
+- Schema Setup
+- Stage Setup
+- CSV File Format Setup
+- COPY INTO Data Loading
+- RAW / STAGING / ANALYTICS Structure
+- RAW-to-STAGING View Setup
+
+**Business Analytics**
+
+- Billing Reconciliation
+- Payment Processor Settlement Logic
+- Chargeback Restatement Analysis
+- Failed-Payment Analysis
+- MRR Movement
+- Net Revenue Retention
+- Cohort Analysis
 
 <br><br>
-
 
 ➤ Core Business Questions :<br>
 
@@ -98,6 +127,10 @@ All final analytical figures will be produced directly by the project’s own qu
 
 <br>
 """
+
+path = Path("/mnt/data/ledgerly_github_readme_following_sample.txt")
+path.write_text(content, encoding="utf-8")
+print(str(path))
 
 path = Path("/mnt/data/ledgerly_github_readme_draft.txt")
 path.write_text(content, encoding="utf-8")

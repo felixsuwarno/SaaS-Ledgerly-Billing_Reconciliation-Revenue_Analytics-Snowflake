@@ -9,7 +9,7 @@ A Snowflake analytics project using synthetic SaaS billing data generated from S
 <br><br>
 
 
-*➤ Executive Summary :* <br>
+## ➤ Executive Summary : <br>
 **What the project was trying to find out**
 
 - Does Ledgerly’s billing system agree with the payment processor?
@@ -33,7 +33,7 @@ A Snowflake analytics project using synthetic SaaS billing data generated from S
 
 <br><br>
   
-*➤ Project Scope:<br>
+## ➤ Project Scope:<br>
 
 This project evaluates how a simulated B2B SaaS company reconciles subscription billing records against Stripe-style payment processor records.
 
@@ -47,7 +47,7 @@ The project uses Snowflake as the warehouse layer. Raw CSV files are loaded into
 
 The dataset is synthetic, not actual company production data. It was generated from Stripe’s public documentation as the reference model for invoices, subscriptions, charges, balance transactions, payouts, refunds, and disputes, so the project can demonstrate realistic billing reconciliation logic without pretending to use private company records.
 
-➤ The Dataset :<br>
+## ➤ The Dataset :<br>
 
 The dataset is synthetic and covers the 2024 calendar year.
 
@@ -78,7 +78,7 @@ The dirty-data cases are deliberate.
 
 All final analytical figures will be produced directly by the project’s own queries against the included synthetic dataset.
 
-➤ Skills Demonstrated:
+## ➤ Skills Demonstrated:
 
 **Light Data Engineering**
 
@@ -103,7 +103,7 @@ All final analytical figures will be produced directly by the project’s own qu
 
 <br><br>
 
-➤ Core Business Questions :<br>
+## ➤ Core Business Questions :<br>
 
 **1. BILLING RECONCILIATION**
    

@@ -15,7 +15,7 @@ A Snowflake analytics project using synthetic SaaS billing data generated from S
 **What the project was trying to find out**
 
 - Does Ledgerly’s billing system agree with the payment processor?
-- Can the June reconciliation gap be explained clearly enough for month-end close?
+- Can the June' invoice reconciliation gap be explained clearly enough ?
 - Which chargebacks landed in June but restated earlier closed periods?
 - How much June revenue was permanently lost after retries failed?
 - How did June MRR move compared with May?
@@ -113,9 +113,9 @@ All final analytical figures will be produced directly by the project’s own qu
 
 **1. BILLING RECONCILIATION**
    
-  1. Does total settled by the processor in June match what our invoices show as collected?
-  2. For every dollar of gap, what is the specific reason?
-  3. Which closed periods were restated by chargebacks that landed in June?
+  1. What is the June reconciliation gap between invoice-collected amount and processor-settled amount?
+  2. For every dollar of gap, what is the specific reason — processor fees, timing differences, refunds, disputes, or unexplained residual?
+  3. Which invoices from closed prior periods had their net revenue restated by chargebacks that landed in June?
 
 **2. REVENUE ANALYTICS**
    

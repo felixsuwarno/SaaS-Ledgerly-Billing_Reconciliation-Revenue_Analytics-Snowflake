@@ -113,7 +113,7 @@ All final analytical figures will be produced directly by the project’s own qu
 
 **1. BILLING RECONCILIATION**
    
-  1. What is the June reconciliation gap between invoice-collected amount and processor-settled amount, and which specific invoices, refunds, and disputes explain it?
+  1. Which June paid invoices reconcile after expected processor fees, refunds, and disputes are accounted for?
   2. For each invoice where a gap exists, identify the invoice and explain the specific reason — processor fee deduction, timing difference, refund, dispute, or unexplained residual.
   3. Which invoices from closed prior periods had their net revenue restated by chargebacks that landed in June?
 

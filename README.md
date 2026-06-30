@@ -58,24 +58,23 @@ The analysis uses nine core tables modeled on the Stripe API, covering customers
 
 ➤ Core Business Questions :<br>
 
-**BILLING RECONCILIATION**
-
-1- Which June 2024 Stripe-processed invoices have a gap between what the billing system recorded and what Stripe settled — and what caused each gap?
-
+**BILLING RECONCILIATION**<br>
+1- Which June 2024 Stripe-processed invoices have a gap between what the billing system recorded and what Stripe settled — and what caused each gap?<br>
 2- Which prior-period invoices had their net revenue restated by chargebacks that landed in June 2024, and how much was lost by dispute reason?
 
-**REVENUE ANALYTICS**
+<br>
 
-3- What was month-by-month subscription MRR from December 2023 through December 2024, and how did the rate of change shift over the year?
-
+**REVENUE ANALYTICS**<br>
+3- What was month-by-month subscription MRR from December 2023 through December 2024, and how did the rate of change shift over the year?<br>
 4- What drove each month's MRR movement — how much came from new subscriptions, expansion, contraction, churn, and reactivation?
 
-**COHORT & RETENTION ANALYTICS**
+<br>
 
-5- Which paid signup cohorts had the strongest and weakest 2024 year-end NRR, and how did individual customers rank within each cohort?
-
+**COHORT & RETENTION ANALYTICS**<br>
+5- Which paid signup cohorts had the strongest and weakest 2024 year-end NRR, and how did individual customers rank within each cohort?<br>
 6- For each paid signup cohort, how much of the 2024 NRR outcome was driven by expansion, contraction, and churn — and which cohorts were net positive vs. net negative?
 
-**COLLECTIONS & LOST REVENUE**
+<br>
 
+**COLLECTIONS & LOST REVENUE**<br>
 7- How much recurring revenue was permanently lost each month in 2024 after all payment retries were exhausted?

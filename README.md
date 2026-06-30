@@ -60,7 +60,7 @@ The analysis uses nine core tables modeled on the Stripe API, covering customers
 
 **BILLING RECONCILIATION**<br>
 BQ01 — Which June Stripe invoices have reconciliation gaps, and why?<br>
-BQ02 — How much prior-period revenue was restated by June 2024 chargebacks, and why?
+BQ02 — How much old invoice revenue did we lose to June chargebacks, and why?
 
 <br>
 

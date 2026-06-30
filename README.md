@@ -58,24 +58,24 @@ The analysis uses nine core tables modeled on the Stripe API, covering customers
 
 ➤ Core Business Questions :<br>
 
-**1. BILLING RECONCILIATION**
+**BILLING RECONCILIATION**
 
-- Which June 2024 Stripe-processed invoices have a gap between what the billing system recorded and what Stripe settled — and what caused each gap?
-- Which prior-period invoices had their net revenue restated by chargebacks that landed in June 2024, and how much was lost by dispute reason?
+1- Which June 2024 Stripe-processed invoices have a gap between what the billing system recorded and what Stripe settled — and what caused each gap?
 
-**2. REVENUE ANALYTICS**
+2- Which prior-period invoices had their net revenue restated by chargebacks that landed in June 2024, and how much was lost by dispute reason?
 
-- What was month-by-month subscription MRR from December 2023 through December 2024, and how did the rate of change shift over the year?
-- What drove each month's MRR movement — how much came from new subscriptions, expansion, contraction, churn, and reactivation?
+**REVENUE ANALYTICS**
 
-**3. COHORT & RETENTION ANALYTICS**
+3- What was month-by-month subscription MRR from December 2023 through December 2024, and how did the rate of change shift over the year?
 
-- Which paid signup cohorts had the strongest and weakest 2024 year-end NRR, and how did individual customers rank within each cohort?
-- For each paid signup cohort, how much of the 2024 NRR outcome was driven by expansion, contraction, and churn — and which cohorts were net positive vs. net negative?
+4- What drove each month's MRR movement — how much came from new subscriptions, expansion, contraction, churn, and reactivation?
 
----
+**COHORT & RETENTION ANALYTICS**
 
-<br>
-"""
+5- Which paid signup cohorts had the strongest and weakest 2024 year-end NRR, and how did individual customers rank within each cohort?
 
+6- For each paid signup cohort, how much of the 2024 NRR outcome was driven by expansion, contraction, and churn — and which cohorts were net positive vs. net negative?
 
+**COLLECTIONS & LOST REVENUE**
+
+7- How much recurring revenue was permanently lost each month in 2024 after all payment retries were exhausted?

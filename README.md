@@ -101,20 +101,24 @@ The main output is not a dashboard metric. It is an invoice-level exception repo
 
 Finance would use the 250-row output to review each invoice with a reconciliation gap and trace whether the gap came from refund activity, dispute activity, or another processor-side mismatch.
 
-**Charts**
-
-<p align="center">
-  <img src="Charts/01_1_Monthly_Recurring_Revenue.png" width="100%">
-</p>
 
 <br>
 
 **Key Insights**
 
-- Of 12,972 June invoices processed through Stripe, 12,722 reconcile cleanly (98.1%)
-- 250 invoices have a gap, totaling $49,354.15 in unreconciled revenue
-- All gaps are caused by refunds and disputes, not timing differences, missing charges, or double charges.
-- Partial refunds account for the highest volume of gaps: 199 invoices, $16,933.90
-- Disputes drive the highest dollar impact: 51 invoices, $32,420.25 — despite being fewer in number, dispute deductions are larger per invoice than refunds
-- No double charges detected across any June invoice — PROCESSOR_CHARGE_COUNT is 1 for all 12,972 invoices
+- BQ01 produced an invoice-level exception report identifying 250 June Stripe invoices where the billing-side paid amount did not match the Stripe-side processed amount.
+- The output is designed for finance review at the invoice level, with each row showing the invoice ID, customer ID, billing amount, Stripe processed amount, reconciliation gap, and reason classification.
+- Summary: 250 invoices required review. Most were partial refunds; disputes were fewer but larger per invoice.
+
+<br>
+
+**BQ02 - How much old invoice revenue did we lose to June chargebacks, and why?**
+
+<br>
+
+**Charts**
+
+<p align="center">
+  <img src="Charts/01_1_Monthly_Recurring_Revenue.png" width="100%">
+</p>
 

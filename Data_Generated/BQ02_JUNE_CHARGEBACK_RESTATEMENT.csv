@@ -1,0 +1,4 @@
+DISPUTE_REASON,INVOICE_COUNT,TOTAL_LOST_NET_CENTS
+product_not_received,3,-50240
+subscription_canceled,4,-104145
+fraudulent,1,-19440

@@ -102,7 +102,6 @@ The main output is not a dashboard metric. It is an invoice-level exception repo
 
 Finance would use the 250-row output to review each invoice with a reconciliation gap and trace whether the gap came from refund activity, dispute activity, or another processor-side mismatch.
 
-
 <br>
 
 **Key Insights**
@@ -111,7 +110,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 - The output is designed for finance review at the invoice level, with each row showing the invoice ID, customer ID, billing amount, Stripe processed amount, reconciliation gap, and reason classification.
 - Summary: 250 invoices required review. Most were partial refunds; disputes were fewer but larger per invoice.
 
-<br>
+<br><br>
 
 **BQ02 - How much old invoice revenue did we lose to June chargebacks, and why?**
 

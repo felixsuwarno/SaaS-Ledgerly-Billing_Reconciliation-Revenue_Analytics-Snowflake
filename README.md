@@ -62,7 +62,7 @@ The analysis uses nine core tables modeled on the Stripe API, covering customers
 
 <br><br>
 
-##Core Business Questions :
+## Core Business Questions :
 <br>
 
 BILLING RECONCILIATION<br>

@@ -87,7 +87,7 @@ BQ07 — How did expansion, contraction, and churn affect 2024 year-end NRR by p
 
 <br>
 
-**1  Which June Stripe invoices have reconciliation gaps, and why?**
+**BQ01 - Which June Stripe invoices have reconciliation gaps, and why?**
 
 **Charts**
 

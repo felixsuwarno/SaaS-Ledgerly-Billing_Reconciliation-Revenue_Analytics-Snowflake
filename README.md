@@ -62,21 +62,20 @@ The analysis uses nine core tables modeled on the Stripe API, covering customers
 ## Core Business Questions :
 <br>
 
-**BILLING RECONCILIATION**<br>
+**BILLING RECONCILIATION** <br>
 BQ01 — Which June Stripe invoices have reconciliation gaps, and why?<br>
 BQ02 — How much old invoice revenue did we lose to June chargebacks, and why?
-
 <br>
-**REVENUE ANALYTICS**<br>
+
+**REVENUE ANALYTICS** <br>
 BQ03 — What was month-by-month MRR movement in 2024?<br>
 BQ04 — What drove the 2024 MRR movement?<br>
 BQ05 — How much recurring revenue was permanently lost each month in 2024 after all payment retries were exhausted?
-
 <br>
-**COHORT & RETENTION ANALYTICS**<br>
+
+**COHORT & RETENTION ANALYTICS** <br>
 BQ06 — Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?<br>
 BQ07 — How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
-
 <br>
 
 ---

@@ -89,6 +89,18 @@ BQ07 — How did expansion, contraction, and churn affect 2024 year-end NRR by p
 
 **BQ01 - Which June Stripe invoices have reconciliation gaps, and why?**
 
+The main output is not a dashboard metric. It is an invoice-level exception report.
+
+<p align="center">
+  <b>
+    <a href="Data_Generated/BQ01C_INVOICE_PROCESSOR_RECON_2024.csv">
+      Download CSV: BQ01C Invoice Reconciliation Exception Report
+    </a>
+  </b>
+</p>
+
+Finance would use the 250-row output to review each invoice with a reconciliation gap and trace whether the gap came from refund activity, dispute activity, or another processor-side mismatch.
+
 **Charts**
 
 <p align="center">

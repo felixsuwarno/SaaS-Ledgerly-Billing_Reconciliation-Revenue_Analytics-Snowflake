@@ -91,7 +91,7 @@ BQ07 — How did expansion, contraction, and churn affect 2024 year-end NRR by p
 
 The main output is not a dashboard metric. It is an invoice-level exception report.
 
-<p align="center">
+<p align="left">
   <b>
     <a href="Data_Generated/BQ01C_INVOICE_PROCESSOR_RECON_2024.csv">
       Download CSV: BQ01C Invoice Reconciliation Exception Report

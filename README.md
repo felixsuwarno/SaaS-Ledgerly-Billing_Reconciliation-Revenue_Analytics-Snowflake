@@ -60,7 +60,6 @@ The analysis uses nine core tables modeled on the Stripe API, covering customers
 <br><br>
 
 ## Core Business Questions :
-<br>
 
 **BILLING RECONCILIATION** <br>
 BQ01 — Which June Stripe invoices have reconciliation gaps, and why?<br>

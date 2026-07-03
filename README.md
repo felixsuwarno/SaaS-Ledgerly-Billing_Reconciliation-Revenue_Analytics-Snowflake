@@ -1,13 +1,13 @@
-Ledgerly — SaaS Billing Reconciliation & Revenue Analytics
+# Ledgerly — SaaS Billing Reconciliation & Revenue Analytics
 
-Billing Reconciliation, MRR Movement, Net Revenue Retention, Cohort Analysis, and Processor Settlement Analytics
+**Billing Reconciliation, MRR Movement, Net Revenue Retention, Cohort Analysis, and Processor Settlement Analytics**
 
 <br>
 End-to-end SaaS billing analytics project analyzing synthetic Stripe-style billing data from a B2B subscription business. The analysis covers processor settlement reconciliation, chargeback restatements, MRR movement, and net revenue retention by paid signup cohort — built entirely in Snowflake using a RAW → STAGING → ANALYTICS architecture.
 
 <br><br>
 
-➤ Executive Summary :<br>
+➤ **Executive Summary :**<br>
 What the project was trying to find out
 
 
@@ -18,13 +18,13 @@ How much recurring revenue was permanently lost in 2024 after all payment retrie
 Which paid signup cohorts retained and expanded revenue through 2024, and which didn't?
 
 
-What the data showed
+➤ **What the data showed**
 
 
 [To be completed after running BQ01–BQ06 outputs]
 
 
-What the key numbers are
+➤ **What the key numbers are**
 
 
 25,000 customers · 26,250 subscriptions · 321,114 invoices · 359,466 charges
@@ -32,7 +32,7 @@ What the key numbers are
 Dataset spans 2022–2024, with analytics scoped to 2024 reporting windows
 
 
-What actions should follow
+➤ **What actions should follow**
 
 
 [To be completed after running BQ01–BQ06 outputs]
@@ -40,7 +40,7 @@ What actions should follow
 
 <br><br>
 
-➤ Project Scope:<br>
+➤ **Project Scope:**<br>
 
 This project evaluates how a simulated B2B SaaS billing system generates, collects, and reconciles recurring revenue — examining whether the processor settlement matches internal billing records, whether chargebacks are distorting prior-period revenue, whether recurring revenue growth is healthy, and whether existing customers are expanding or contracting over time.
 
@@ -48,22 +48,22 @@ The reconciliation layer compares Stripe-side balance transactions against invoi
 
 The project is built entirely in Snowflake using a RAW → STAGING → ANALYTICS three-layer architecture. Raw CSV files load into the RAW schema without transformation. STAGING cleans and types the data. ANALYTICS holds all business logic — reconciliation tables, MRR tables, cohort outputs, and lost-revenue summaries. Every analytics object documents its grain.
 
-➤ A Note on Synthetic Data:<br>
+➤ **A Note on Synthetic Data:**<br>
 
 Real Stripe exports contain PII and are proprietary. This dataset was generated from scratch using published Stripe API schemas, real SaaS churn and dispute benchmarks, and intentionally seeded edge cases that appear in production billing systems — including timing gaps, partial refunds, chargeback restatements of prior periods, and retry-exhausted uncollectible invoices. The goal was a dataset realistic enough that every business question produces a defensible answer, not a convenient one.
 
-➤ The Dataset :<br>
+➤ **The Dataset :**<br>
 The raw dataset spans 2022 through 2024, and all reporting and conclusions in this project are intentionally scoped to 2024 reporting windows, with 2022–2023 history used as the baseline for cohort anchoring and MRR movement calculations.
 
 The analysis uses nine core tables modeled on the Stripe API, covering customers, subscriptions, subscription lifecycle events, invoices, charges, refunds, disputes, processor balance transactions, and bank payouts.
 
-➤ Skills Demonstrated:
+➤ **Skills Demonstrated:**
 
-(SQL • Snowflake • Python • Billing Reconciliation • MRR Movement Analytics • Net Revenue Retention • Cohort Analysis • Window Functions • Data Quality Validation)
+(SQL • Snowflake • Billing Reconciliation • MRR Movement Analytics • Net Revenue Retention • Cohort Analysis • Window Functions • Data Quality Validation)
 
 <br><br>
 
-➤ Core Business Questions :<br>
+➤ **Core Business Questions :**<br>
 
 BILLING RECONCILIATION<br>
 BQ01 — Which June Stripe invoices have reconciliation gaps, and why?<br>

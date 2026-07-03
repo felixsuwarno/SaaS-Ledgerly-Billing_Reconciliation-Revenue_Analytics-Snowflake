@@ -15,25 +15,23 @@ Which prior-period invoices had their net revenue restated by chargebacks that l
 Is recurring revenue growing, and what's driving the movement each month?
 How much recurring revenue was permanently lost in 2024 after all payment retries were exhausted?
 Which paid signup cohorts retained and expanded revenue through 2024, and which didn't?
-<br>
+<br><br>
 
 ➤ **What the data showed**
 
-
 [To be completed after running BQ01–BQ06 outputs]
-
+<br><br>
 
 ➤ **What the key numbers are**
 
 25,000 customers · 26,250 subscriptions · 321,114 invoices · 359,466 charges
 4,158 refunds · 288 disputes · 324,306 balance transactions · 156 payouts
 Dataset spans 2022–2024, with analytics scoped to 2024 reporting windows
-<br>
+<br><br>
 
 ➤ **What actions should follow**
 
 [To be completed after running BQ01–BQ06 outputs]
-
 <br><br>
 
 ➤ **Project Scope:**<br>
@@ -43,40 +41,39 @@ This project evaluates how a simulated B2B SaaS billing system generates, collec
 The reconciliation layer compares Stripe-side balance transactions against invoice-side billing records to surface gaps and classify them by cause. The revenue analytics layer tracks MRR movement month over month and decomposes it into new, expansion, contraction, churn, and reactivation drivers. The cohort layer measures net revenue retention by paid signup cohort and identifies which movement types — expansion, contraction, or churn — drove each cohort's 2024 outcome.
 
 The project is built entirely in Snowflake using a RAW → STAGING → ANALYTICS three-layer architecture. Raw CSV files load into the RAW schema without transformation. STAGING cleans and types the data. ANALYTICS holds all business logic — reconciliation tables, MRR tables, cohort outputs, and lost-revenue summaries. Every analytics object documents its grain.
-<br>
+<br><br>
 
 ➤ **A Note on Synthetic Data:**<br>
 
 Real Stripe exports contain PII and are proprietary. This dataset was generated from scratch using published Stripe API schemas, real SaaS churn and dispute benchmarks, and intentionally seeded edge cases that appear in production billing systems — including timing gaps, partial refunds, chargeback restatements of prior periods, and retry-exhausted uncollectible invoices. The goal was a dataset realistic enough that every business question produces a defensible answer, not a convenient one.
-<br>
+<br><br>
 
 ➤ **The Dataset :**<br>
 The raw dataset spans 2022 through 2024, and all reporting and conclusions in this project are intentionally scoped to 2024 reporting windows, with 2022–2023 history used as the baseline for cohort anchoring and MRR movement calculations.
 
 The analysis uses nine core tables modeled on the Stripe API, covering customers, subscriptions, subscription lifecycle events, invoices, charges, refunds, disputes, processor balance transactions, and bank payouts.
-<br>
+<br><br>
 
 ➤ **Skills Demonstrated:**
 
 (SQL • Snowflake • Billing Reconciliation • MRR Movement Analytics • Net Revenue Retention • Cohort Analysis • Window Functions • Data Quality Validation)
-
 <br><br>
 
 ## Core Business Questions :
 <br>
 
-BILLING RECONCILIATION<br>
+**BILLING RECONCILIATION**<br>
 BQ01 — Which June Stripe invoices have reconciliation gaps, and why?<br>
 BQ02 — How much old invoice revenue did we lose to June chargebacks, and why?
 
 <br>
-REVENUE ANALYTICS<br>
+**REVENUE ANALYTICS**<br>
 BQ03 — What was month-by-month MRR movement in 2024?<br>
 BQ04 — What drove the 2024 MRR movement?<br>
 BQ05 — How much recurring revenue was permanently lost each month in 2024 after all payment retries were exhausted?
 
 <br>
-COHORT & RETENTION ANALYTICS<br>
+**COHORT & RETENTION ANALYTICS**<br>
 BQ06 — Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?<br>
 BQ07 — How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
 

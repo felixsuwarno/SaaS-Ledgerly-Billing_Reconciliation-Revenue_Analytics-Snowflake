@@ -121,3 +121,10 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
   <img src="charts/BQ02.png" width="50%">
 </p> 
 
+**Key Insights**
+- June chargebacks caused $1,738.25 in old invoice revenue loss.
+- Only 8 old invoices were affected. So this is a small-volume issue, not a large operational failure.
+- **subscription_canceled** was the biggest loss reason. It affected 4 invoices and caused $1,041.45 in lost revenue. It made up about 60% of total lost revenue.
+- **product_not_received** was the second-largest reason. It affected 3 invoices and caused $502.40 in lost revenue.
+- Fraud was not the main problem. **fraudulent** affected only 1 invoice and caused $194.40 in lost revenue.
+

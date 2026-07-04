@@ -131,4 +131,28 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 - Growth stayed positive after June, but the pace became more moderate.
 - The business kept adding MRR through December, but the monthly increases after June were smaller than the June spike.
 
+<br><br>
+
+### BQ03 - What drove the 2024 MRR movement?
+
+<br>
+
+**Charts**
+<p align="left">
+  <img src="Charts/BQ03.png" width="75%">
+</p> 
+
+**Key Insights for Net MRR movement**
+- **Net MRR movement** stayed positive every month. The net MRR line remains above zero from January through December.
+- June appears to be the strongest net growth month. Net MRR reaches its highest point around June.
+- August appears to be the weakest net growth month. Net MRR reaches its lowest point around August while churn is at its deepest.
+
+**Key Insights for MRR movement drivers**
+- **New MRR** was the most consistently strong positive driver. It stays high across the year and is usually above the other positive driver lines.
+- **Expansion MRR** had a clear spike around June. This is the most visible expansion peak on the chart.
+- **Reactivation MRR** was a minor driver. It stays much lower than new MRR and expansion MRR, and appears near zero in several months.
+- **Churn** was the main negative pressure. The churn line is generally the deepest negative line on the chart. August was the clearest churn problem month. Churn drops to its lowest point around August.
+- **Contraction** was negative but generally smaller than churn. It stayed below zero, but usually closer to zero than churn.
+  
+
 

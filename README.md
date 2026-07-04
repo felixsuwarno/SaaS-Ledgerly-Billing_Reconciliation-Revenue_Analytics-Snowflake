@@ -133,13 +133,13 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br><br>
 
-### BQ03 - What drove the 2024 MRR movement?
+### BQ04 - What drove the 2024 MRR movement?
 
 <br>
 
 **Charts**
 <p align="left">
-  <img src="Charts/BQ03.png" width="75%">
+  <img src="Charts/BQ04.png" width="100%">
 </p> 
 
 **Key Insights for Net MRR movement**

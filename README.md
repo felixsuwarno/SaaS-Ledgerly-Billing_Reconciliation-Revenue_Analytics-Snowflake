@@ -84,11 +84,11 @@ BQ07 — How did expansion, contraction, and churn affect 2024 year-end NRR by p
 
 ## The Main Report - Key Questions Answered
 
-### BILLING RECONCILIATION
+
 
 <br>
 
-**BQ01 - Which June Stripe invoices have reconciliation gaps, and why?**
+### BQ01 - Which June Stripe invoices have reconciliation gaps, and why
 
 The main output is not a dashboard metric. It is an invoice-level exception report.
 
@@ -112,7 +112,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br><br>
 
-**BQ02 - How much old invoice revenue did we lose to June chargebacks, and why?**
+### BQ02 - How much old invoice revenue did we lose to June chargebacks, and why?**
 
 <br>
 
@@ -130,7 +130,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br><br>
 
-**BQ03 - What was month-by-month MRR movement in 2024**
+### BQ03 - What was month-by-month MRR movement in 2024
 
 <br>
 

@@ -142,12 +142,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
   <img src="Charts/BQ04_v2.png" width="100%">
 </p> 
 
-**Key Insights for Net MRR movement**
-- **Net MRR movement** stayed positive every month. The net MRR line remains above zero from January through December.
-- June appears to be the strongest net growth month. Net MRR reaches its highest point around June.
-- August appears to be the weakest net growth month. Net MRR reaches its lowest point around August while churn is at its deepest.
-
-**Key Insights for MRR movement drivers**
+**Key Insights**
 - **New MRR** was the most consistently strong positive driver. It stays high across the year and is usually above the other positive driver lines.
 - **Expansion MRR** had a clear spike around June. This is the most visible expansion peak on the chart.
 - **Reactivation MRR** was a minor driver. It stays much lower than new MRR and expansion MRR, and appears near zero in several months.

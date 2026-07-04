@@ -118,7 +118,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 **Charts**
 <p align="left">
-  <img src="Charts/BQ02.png" width="50%">
+  <img src="Charts/BQ02.png" width="75%">
 </p> 
 
 **Key Insights**

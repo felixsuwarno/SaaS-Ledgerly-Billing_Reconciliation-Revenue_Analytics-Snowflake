@@ -128,3 +128,22 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 - **product_not_received** was the second-largest reason. It affected 3 invoices and caused $502.40 in lost revenue.
 - Fraud was not the main problem. **fraudulent** affected only 1 invoice and caused $194.40 in lost revenue.
 
+<br><br>
+
+**BQ03 - What was month-by-month MRR movement in 2024**
+
+<br>
+
+**Charts**
+<p align="left">
+  <img src="Charts/BQ03.png" width="75%">
+</p> 
+
+**Key Insights**
+- Ledgerly’s MRR increased every month in 2024. MRR rose from $6.45M in January to $8.71M in December, with no month-over-month decline.
+- Total January-to-December MRR growth was about $2.27M. That equals about 35.1% growth from January’s MRR base.
+- June was the strongest growth month. MRR increased by about $349K from May to June, the largest monthly gain in the year.
+- Growth stayed positive after June, but the pace became more moderate.
+- The business kept adding MRR through December, but the monthly increases after June were smaller than the June spike.
+
+

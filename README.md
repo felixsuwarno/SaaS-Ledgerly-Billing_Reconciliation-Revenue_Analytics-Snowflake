@@ -82,6 +82,23 @@ The project is built in Snowflake. Nine staging tables, three schema layers, one
   </b>
 </p>
 
+<p align="left">
+  <b>
+    Query logic:
+    <a href="SQL/BQ01B_STRIPE_PAYMENT_2024_JUNE.sql">
+      BQ01A_STRIPE_INVOICE_2024_JUNE.sql
+    </a>
+  </b>
+</p>
+
+<p align="left">
+  <b>
+    Query logic:
+    <a href="SQL/BQ01C_INVOICE_PROCESSOR_RECON_2024_JUNE.sql">
+      BQ01A_STRIPE_INVOICE_2024_JUNE.sql
+    </a>
+  </b>
+</p>
 
 The main output is not a dashboard metric. It is an invoice-level exception report. <br>
 **Note** : the WHY can be seen from the column named **"GAP_REASON"**.

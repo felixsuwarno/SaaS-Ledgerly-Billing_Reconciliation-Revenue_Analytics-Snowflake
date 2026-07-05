@@ -84,9 +84,8 @@ Query logic:
 
 <p align="left">
   <b>
-
     <a href="SQL/BQ01B_STRIPE_PAYMENT_2024_JUNE.sql">
-      Prepare STRIPE side payment records.
+      Prepare STRIPE's side payment records.
     </a>
   </b>
 </p>
@@ -94,7 +93,7 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ01C_INVOICE_PROCESSOR_RECON_2024_JUNE.sql">
-      Join both records and find the 
+      Join both records and do billing reconcilliation.
     </a>
   </b>
 </p>

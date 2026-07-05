@@ -154,7 +154,14 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 <br>
 
 Cohorts are based on each customer’s first paid invoice month.  
-2024 NRR compares December 2024 ending MRR against December 2023 starting MRR for customers who had recurring revenue entering 2024.
+The chart includes first-paid customer cohorts from January 2022 through December 2023.
+
+2024 NRR compares December 2024 ending MRR against December 2023 starting MRR for customers with MRR > 0 in the December 2023 MRR base.
+
+This uses a December 2023 MRR base, not a strict active-on-January-1 membership filter. Customers are included if they have December 2023 MRR, even if their membership ended during December 2023.
+
+Formula:  
+2024 NRR = December 2024 MRR / December 2023 MRR
 
 <br>
 
@@ -177,6 +184,6 @@ Cohorts are based on each customer’s first paid invoice month.
 
 **Chart**
 <p align="left">
-  <img src="Charts/BQ05_v2.png" width="100%">
+  <img src="Charts/BQ06.png" width="100%">
 </p> 
 

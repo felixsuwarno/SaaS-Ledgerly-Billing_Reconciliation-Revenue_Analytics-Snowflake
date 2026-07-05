@@ -132,11 +132,10 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 <br>
 
 **Business Implications**
-- Use the 2024 MRR trend as the baseline for future MRR forecasting.
-- Review the strongest growth months to identify repeatable business conditions.
-- Compare stronger and weaker months to find where growth momentum slowed.
-- Set monthly MRR targets based on the actual 2024 movement pattern.
-- Create early-warning checks for months where MRR growth starts to slow.
+
+- **Use the 2024 MRR trend as a baseline for future revenue planning.** Ledgerly can use the monthly MRR path to understand what normal growth looked like in 2024.
+- **Use stronger and weaker months as flags for follow-up analysis.** Ledgerly should compare high-growth and slower-growth months to identify what changed, then route the next action based on the cause: review sales and marketing if acquisition weakened, review retention if churn increased, or review upgrade motion if expansion slowed.
+- **Track future MRR against the 2024 pattern.** If future months fall below the historical growth pattern, Ledgerly should investigate whether the issue is weaker acquisition, lower expansion, higher churn, or billing/retry problems.
 
 
 <br><br>

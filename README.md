@@ -73,29 +73,28 @@ The project is built in Snowflake. Nine staging tables, three schema layers, one
 
 ### BQ01 - Which June Stripe invoices have reconciliation gaps, and why
 
+Query logic:
 <p align="left">
   <b>
-    Query logic:
     <a href="SQL/BQ01A_STRIPE_INVOICE_2024_JUNE.sql">
-      BQ01A_STRIPE_INVOICE_2024_JUNE.sql
+      Prepare Ledgerly company's side billing records.
     </a>
   </b>
 </p>
 
 <p align="left">
   <b>
-    Query logic:
+
     <a href="SQL/BQ01B_STRIPE_PAYMENT_2024_JUNE.sql">
-      BQ01A_STRIPE_INVOICE_2024_JUNE.sql
+      Prepare STRIPE side payment records.
     </a>
   </b>
 </p>
 
 <p align="left">
   <b>
-    Query logic:
     <a href="SQL/BQ01C_INVOICE_PROCESSOR_RECON_2024_JUNE.sql">
-      BQ01A_STRIPE_INVOICE_2024_JUNE.sql
+      Join both records and find the 
     </a>
   </b>
 </p>

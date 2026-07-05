@@ -191,7 +191,30 @@ Any customer with MRR > 0 in December 2023 is included in the base, even if thei
 </p> 
 
 **Key Insights**
-
+- **Expansion was positive in every cohort.** Every paid signup cohort added expansion MRR, showing that retained customers generally grew over time.
+- **2023 cohorts had stronger expansion than most 2022 cohorts.** From Jan 2023 onward, expansion was mostly in the mid-teens to mid-20s, while many 2022 cohorts stayed below 10%.
+- **Mar 2022 was the strongest outlier.** The Mar 2022 cohort had about +40% expansion, far higher than the other cohorts.
+- **Mar 2023 was the weakest cohort.** It had the heaviest combined revenue drag, especially from contraction, which pulled its NRR below the other cohorts.
+- **Churn was usually the larger negative driver.** Across most cohorts, churn took more starting MRR away than contraction.
 <br>
 
 **Business Implications**
+Business implications / What to do
+
+- **Launch a churn-recovery process for cohorts with heavy churn.** Churn is the biggest negative driver in most cohorts, so Ledgerly should focus customer success effort on preventing customers from going to zero. The business action is to improve renewal outreach, payment recovery, and usage-based intervention before customers fully leave.
+- **Create downgrade-prevention offers for high-contraction cohorts.** Contraction is smaller than churn, but it still reduces NRR. Ledgerly should give customers better downgrade alternatives, right-sized plans, or temporary retention offers instead of letting them cut MRR sharply.
+- **Investigate what drove expansion in strong cohorts before building a playbook.** Some cohorts expanded much more than others — but the analysis does not yet explain why. Ledgerly should first identify whether expansion came from a few large accounts or a repeatable upsell pattern, then turn the repeatable part into a campaign.
+- **Manage retention by cohort, not by company average.** Each cohort has a different driver mix. High-churn cohorts need save motions, high-contraction cohorts need downgrade control, and high-expansion cohorts should guide upsell strategy once the driver is confirmed.
+
+
+
+
+
+
+
+
+
+
+
+
+

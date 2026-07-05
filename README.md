@@ -153,15 +153,10 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br>
 
-Cohorts are based on each customer’s first paid invoice month.  
-The chart includes first-paid customer cohorts from January 2022 through December 2023.
-
-2024 NRR compares December 2024 ending MRR against December 2023 starting MRR for customers with MRR > 0 in the December 2023 MRR base.
-
-This uses a December 2023 MRR base, not a strict active-on-January-1 membership filter. Customers are included if they have December 2023 MRR, even if their membership ended during December 2023.
-
-Formula:  
-2024 NRR = December 2024 MRR / December 2023 MRR
+Cohorts are defined by each customer's first paid invoice month, covering January 2022 through December 2023.
+2024 year-end NRR is calculated as: December 2024 MRR / December 2023 MRR
+The denominator is December 2023 MRR — not a strict active membership filter. 
+Any customer with MRR > 0 in December 2023 is included in the base, even if their subscription ended during that month.
 
 <br>
 
@@ -178,12 +173,25 @@ Formula:
 - **2023 cohorts performed better overall than 2022 cohorts.** The average 2023 cohort NRR was about 102.8%, while the average 2022 cohort NRR was about 96.7%. This suggests newer customer cohorts held or expanded revenue better than older cohorts.
 - **The 100% line separates expansion from contraction.** Blue cohorts added or retained more recurring revenue than they started with. Red cohorts lost recurring revenue by year-end.
 
-### BQ06 - Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?
+<br>
+
+**Business Implications**
+- **Investigate the weakest cohort first.** The Mar 2023 cohort ended at 85.31% NRR, the lowest result in the chart. Ledgerly should review the actual customers in that cohort and separate the loss into churn, downgrades, and missed expansion.
+- **Compare weak cohorts against strong cohorts.** Mar 2022 reached 126.59% NRR while Mar 2023 fell to 85.31%. Ledgerly should compare these cohorts on plan mix, customer size, acquisition source, discounts, and upgrade/downgrade behavior to understand what drove the retention gap.
+
+<br><br>
+
+### BQ06 - How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
 
 <br>
 
 **Chart**
 <p align="left">
-  <img src="Charts/BQ06.png" width="100%">
+  <img src="Charts/BQ06_v2.png" width="100%">
 </p> 
 
+**Key Insights**
+
+<br>
+
+**Business Implications**

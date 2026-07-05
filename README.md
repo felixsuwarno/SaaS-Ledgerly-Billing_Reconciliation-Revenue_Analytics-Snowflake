@@ -33,8 +33,7 @@ The seven business questions in this project work through that question from dif
 
 **BQ01** and **BQ02** sit at the **processor layer** — where the money physically moves and where gaps and chargebacks quietly restate numbers that already closed. <br><br>
 **BQ03** and **BQ04** sit at the **MRR layer** — what the recurring revenue line looks like month to month and what caused each movement. <br><br>
-**BQ05** isolates the invoices that failed every payment retry and were marked uncollectible — revenue that left the business permanently, not temporarily. <br><br>
-**BQ06** and **BQ07** sit at the **cohort layer** — which groups of customers held their MRR through 2024 and which lost it, and exactly how much of that outcome came from expansion, contraction, or churn.<br><br>
+**BQ05** and **BQ06** sit at the **cohort layer** — which groups of customers held their MRR through 2024 and which lost it, and exactly how much of that outcome came from expansion, contraction, or churn.<br><br>
 
 The project is built in Snowflake. Nine staging tables, three schema layers, one analytics table per business question. Every table states its grain. Every filter has a reason.
 
@@ -55,12 +54,11 @@ The project is built in Snowflake. Nine staging tables, three schema layers, one
 **REVENUE ANALYTICS** <br>
 **BQ03** — What was month-by-month MRR movement in 2024?<br>
 **BQ04** — What drove the 2024 MRR movement?<br>
-**BQ05** — How much recurring revenue was permanently lost each month in 2024 after all payment retries were exhausted?
 <br>
 
 **COHORT & RETENTION ANALYTICS** <br>
-**BQ06** — Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?<br>
-**BQ07** — How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
+**BQ05** — Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?<br>
+**BQ06** — How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
 <br>
 
 ---

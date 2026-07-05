@@ -53,7 +53,7 @@ The project is built in Snowflake. Nine staging tables, three schema layers, one
 
 **REVENUE ANALYTICS** <br>
 **BQ03** — What was month-by-month MRR movement in 2024?<br>
-**BQ04** — What drove the 2024 MRR movement?<br>
+**BQ04** — What drove the 2024 MRR movement?
 <br>
 
 **COHORT & RETENTION ANALYTICS** <br>

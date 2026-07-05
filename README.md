@@ -57,7 +57,7 @@ The project is built in Snowflake. Nine staging tables, three schema layers, one
 <br>
 
 **COHORT & RETENTION ANALYTICS** <br>
-**BQ05** — Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?<br>
+**BQ05** — Which first-paid customer cohorts had the strongest and weakest NRR from December 2023 starting MRR to December 2024 ending MRR?<br>
 **BQ06** — How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
 <br>
 
@@ -99,7 +99,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br>
 
-**Charts**
+**Chart**
 <p align="left">
   <img src="Charts/BQ02.png" width="75%">
 </p> 
@@ -117,7 +117,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br>
 
-**Charts**
+**Chart**
 <p align="left">
   <img src="Charts/BQ03.png" width="75%">
 </p> 
@@ -135,7 +135,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br>
 
-**Charts**
+**Chart**
 <p align="left">
   <img src="Charts/BQ04_v2.png" width="100%">
 </p> 
@@ -149,21 +149,34 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br><br>
 
-### BQ05 - Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?
+### BQ05 — Which first-paid customer cohorts had the strongest and weakest 2024 net revenue retention?
 
 <br>
 
-**Charts**
+Cohorts are based on each customer’s first paid invoice month.  
+2024 NRR compares December 2024 ending MRR against December 2023 starting MRR for customers who had recurring revenue entering 2024.
+
+<br>
+
+**Chart**
 <p align="left">
   <img src="Charts/BQ05_v2.png" width="100%">
 </p> 
 
 **Key Insights**
-- **Overall 2024 year-end NRR was slightly below full retention.** Across all paid signup cohorts, ending MRR was lower than starting MRR: 99.4% overall NRR.
+- **Overall 2024 year-end NRR was slightly below full retention.** Across all customer cohorts, ending MRR was lower than starting MRR: 99.4% overall NRR.
 - **The strongest cohort was March 2022.** The Mar 2022 cohort had the highest NRR at 126.59%, meaning its ending MRR was about 26.6% higher than its starting MRR.
 - **The weakest cohort was March 2023.** The Mar 2023 cohort had the lowest NRR at 85.31%, meaning it retained only about 85% of its starting recurring revenue by year-end.
-- **More cohorts shrank than grew**. Out of 24 paid signup cohorts, 13 cohorts ended below 100% NRR, while 11 cohorts ended at or above 100%.
-- **2023 cohorts performed better overall than 2022 cohorts.** The average 2023 cohort NRR was about 102.8%, while the average 2022 cohort NRR was about 96.7%. This suggests newer paid cohorts held or expanded revenue better than older cohorts.
-- **The 100% line splits the story clearly.** Blue cohorts added or retained more recurring revenue than they started with. Red cohorts lost recurring revenue by year-end. The chart shows Ledgerly had mixed retention performance, not a uniform cohort trend.
+- **More cohorts shrank than grew.** Out of 24 customer cohorts, 13 cohorts ended below 100% NRR, while 11 cohorts ended at or above 100%.
+- **2023 cohorts performed better overall than 2022 cohorts.** The average 2023 cohort NRR was about 102.8%, while the average 2022 cohort NRR was about 96.7%. This suggests newer customer cohorts held or expanded revenue better than older cohorts.
+- **The 100% line separates expansion from contraction.** Blue cohorts added or retained more recurring revenue than they started with. Red cohorts lost recurring revenue by year-end.
 
+### BQ06 - Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?
+
+<br>
+
+**Chart**
+<p align="left">
+  <img src="Charts/BQ05_v2.png" width="100%">
+</p> 
 

@@ -77,7 +77,7 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ01A_STRIPE_INVOICE_2024_JUNE.sql">
-      Prepare Ledgerly company's side billing records - BQ01A_STRIPE_INVOICE_2024_JUNE.sql
+      BQ01A_STRIPE_INVOICE_2024_JUNE.sql - Prepare Ledgerly company's side billing records
     </a>
   </b>
 </p>
@@ -85,7 +85,7 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ01B_STRIPE_PAYMENT_2024_JUNE.sql">
-      Prepare STRIPE's side payment records - BQ01B_STRIPE_PAYMENT_2024_JUNE.sql
+      BQ01B_STRIPE_PAYMENT_2024_JUNE.sql - Prepare STRIPE's side payment records
     </a>
   </b>
 </p>
@@ -93,7 +93,7 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ01C_INVOICE_PROCESSOR_RECON_2024_JUNE.sql">
-      Join both records and do billing reconcilliation - BQ01C_INVOICE_PROCESSOR_RECON_2024_JUNE.sql
+      BQ01C_INVOICE_PROCESSOR_RECON_2024_JUNE.sql - Join both records and do billing reconcilliation
     </a>
   </b>
 </p>

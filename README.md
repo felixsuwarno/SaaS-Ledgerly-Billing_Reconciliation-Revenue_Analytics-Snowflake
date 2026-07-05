@@ -130,7 +130,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 Query logic:
 <p align="left">
   <b>
-    <a href="SQL/BQ01A_STRIPE_INVOICE_2024_JUNE.sql">
+    <a href="SQL/BQ02_JUNE_CHARGEBACK_REVENUE_LOST.sql">
       BQ02_JUNE_CHARGEBACK_RESTATEMENT.sql
     </a>
   </b>

@@ -73,11 +73,11 @@ The project is built in Snowflake. Nine staging tables, three schema layers, one
 
 ### BQ01 - Which June Stripe invoices have reconciliation gaps, and why
 
-Query logic: [View commented SQL]
 <p align="left">
   <b>
+    Query logic:
     <a href="SQL/BQ01A_STRIPE_INVOICE_2024_JUNE.sql">
-      Download SQL Query: BQ01A_STRIPE_INVOICE_2024_JUNE.sql
+      BQ01A_STRIPE_INVOICE_2024_JUNE.sql
     </a>
   </b>
 </p>

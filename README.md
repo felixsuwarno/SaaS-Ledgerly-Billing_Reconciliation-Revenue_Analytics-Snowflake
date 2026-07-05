@@ -127,6 +127,17 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br>
 
+Query logic:
+<p align="left">
+  <b>
+    <a href="SQL/BQ01A_STRIPE_INVOICE_2024_JUNE.sql">
+      BQ02_JUNE_CHARGEBACK_RESTATEMENT.sql
+    </a>
+  </b>
+</p>
+
+<br>
+
 **Chart**
 <p align="left">
   <img src="Charts/BQ02.png" width="75%">

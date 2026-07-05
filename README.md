@@ -113,6 +113,8 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br><br>
 
+---
+
 ### BQ03 - What was month-by-month MRR movement in 2024
 
 <br>
@@ -128,15 +130,6 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 - June was the strongest growth month. MRR increased by about $349K from May to June, the largest monthly gain in the year.
 - Growth stayed positive after June, but the pace became more moderate.
 - The business kept adding MRR through December, but the monthly increases after June were smaller than the June spike.
-
-<br>
-
-**Business Implications**
-
-- **Use the 2024 MRR trend as a baseline for future revenue planning.** Ledgerly can use the monthly MRR path to understand what normal growth looked like in 2024.
-- **Use stronger and weaker months as flags for follow-up analysis.** Ledgerly should compare high-growth and slower-growth months to identify what changed, then route the next action based on the cause: review sales and marketing if acquisition weakened, review retention if churn increased, or review upgrade motion if expansion slowed.
-- **Track future MRR against the 2024 pattern.** If future months fall below the historical growth pattern, Ledgerly should investigate whether the issue is weaker acquisition, lower expansion, higher churn, or billing/retry problems.
-
 
 <br><br>
 
@@ -158,16 +151,20 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br>
 
-**Business Implications**
-Keep supporting new customer acquisition, but check whether new MRR is retained after signup.
-Study the June expansion spike to identify what drove upgrades or plan expansion.
-Build expansion playbooks around the customer types or plans that contributed most to Expansion MRR.
-Treat reactivation as a secondary lever because it was much smaller than New MRR and Expansion MRR.
-Prioritize churn reduction before contraction reduction because churn was the larger negative pressure.
-Investigate August churn first, broken down by plan, customer cohort, subscription age, and customer segment.
-Use the driver breakdown to decide where growth work should go: acquisition, expansion, or churn prevention.
+**Business Implication for BQ03 + BQ04**
+
+Ledgerly should use the monthly MRR trend to identify when revenue momentum strengthened or weakened, then use the MRR driver breakdown to decide which lever to act on. The company should protect the strongest positive drivers, especially New MRR and Expansion MRR, while prioritizing churn reduction because churn was the largest negative pressure on recurring revenue.
+
+Actions:
+
+- **Use monthly MRR movement as the monitoring signal.** When a month shows stronger or weaker MRR movement, flag it for follow-up instead of treating the annual growth trend as enough.
+- **Use the driver breakdown to choose the response.** If growth slowed because New MRR weakened, review acquisition. If Expansion MRR weakened, review upgrade motion. If churn increased, review retention.
+- **Study the June expansion spike.** Identify which plans, customer types, or upgrade actions caused Expansion MRR to peak, then decide whether that expansion pattern can be repeated.
+- **Study August churn.** August showed the clearest churn problem, so Ledgerly should break it down by plan, cohort, subscription age, and customer segment.
 
 <br><br>
+
+---
 
 ### BQ05 — Which first-paid customer cohorts had the strongest and weakest 2024 net revenue retention?
 
@@ -193,12 +190,6 @@ Any customer with MRR > 0 in December 2023 is included in the base, even if thei
 - **2023 cohorts performed better overall than 2022 cohorts.** The average 2023 cohort NRR was about 102.8%, while the average 2022 cohort NRR was about 96.7%. This suggests newer customer cohorts held or expanded revenue better than older cohorts.
 - **The 100% line separates expansion from contraction.** Blue cohorts added or retained more recurring revenue than they started with. Red cohorts lost recurring revenue by year-end.
 
-<br>
-
-**Business Implications**
-- **Investigate the weakest cohort first.** The Mar 2023 cohort ended at 85.31% NRR, the lowest result in the chart. Ledgerly should review the actual customers in that cohort and separate the loss into churn, downgrades, and missed expansion.
-- **Compare weak cohorts against strong cohorts.** Mar 2022 reached 126.59% NRR while Mar 2023 fell to 85.31%. Ledgerly should compare these cohorts on plan mix, customer size, acquisition source, discounts, and upgrade/downgrade behavior to understand what drove the retention gap.
-
 <br><br>
 
 ### BQ06 - How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
@@ -221,10 +212,10 @@ Any customer with MRR > 0 in December 2023 is included in the base, even if thei
 **Business Implications**
 Business implications / What to do
 
-- **Launch a churn-recovery process for cohorts with heavy churn.** Churn is the biggest negative driver in most cohorts, so Ledgerly should focus customer success effort on preventing customers from going to zero. The business action is to improve renewal outreach, payment recovery, and usage-based intervention before customers fully leave.
-- **Create downgrade-prevention offers for high-contraction cohorts.** Contraction is smaller than churn, but it still reduces NRR. Ledgerly should give customers better downgrade alternatives, right-sized plans, or temporary retention offers instead of letting them cut MRR sharply.
-- **Investigate what drove expansion in strong cohorts before building a playbook.** Some cohorts expanded much more than others — but the analysis does not yet explain why. Ledgerly should first identify whether expansion came from a few large accounts or a repeatable upsell pattern, then turn the repeatable part into a campaign.
-- **Manage retention by cohort, not by company average.** Each cohort has a different driver mix. High-churn cohorts need save motions, high-contraction cohorts need downgrade control, and high-expansion cohorts should guide upsell strategy once the driver is confirmed.
+- **Launch churn-prevention plays for high-churn cohorts.** Churn removed more starting MRR than contraction in most cohorts, so Ledgerly should focus on preventing customers from going to zero through renewal outreach, payment recovery, cancellation-save offers, and usage-based intervention.
+- **Create downgrade-prevention offers for high-contraction cohorts.** Contraction is a different problem from churn. For cohorts with heavy contraction, Ledgerly should offer better downgrade paths, right-sized plans, pricing adjustments, or temporary retention offers before customers cut MRR sharply.
+- **Turn high-expansion cohorts into an upsell playbook.** Some cohorts expanded far more than others. Ledgerly should identify the repeatable upgrade motion behind those cohorts and use it to target cohorts with weaker expansion.
+- **Manage retention by cohort driver, not by average NRR.** A 99.4% overall NRR hides different problems across cohorts. Cohorts below 100% need targeted action based on the main driver: churn recovery, downgrade prevention, or expansion campaigns.
 
 
 

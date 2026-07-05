@@ -146,6 +146,19 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 - **Reactivation MRR** was a minor driver. It stays much lower than new MRR and expansion MRR, and appears near zero in several months.
 - **Churn** was the main negative pressure. The churn line is generally the deepest negative line on the chart. August was the clearest churn problem month. Churn drops to its lowest point around August.
 - **Contraction** was negative but generally smaller than churn. It stayed below zero, but usually closer to zero than churn.
-  
+
+<br><br>
+
+### BQ05 - Which paid signup cohorts had the strongest and weakest 2024 year-end NRR?
+
+<br>
+
+**Charts**
+<p align="left">
+  <img src="Charts/BQ05.png" width="100%">
+</p> 
+
+**Key Insights**
+
 
 

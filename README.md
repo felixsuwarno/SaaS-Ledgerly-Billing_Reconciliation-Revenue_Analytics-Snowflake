@@ -129,6 +129,16 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 - Growth stayed positive after June, but the pace became more moderate.
 - The business kept adding MRR through December, but the monthly increases after June were smaller than the June spike.
 
+<br>
+
+**Business Implications**
+- Use the 2024 MRR trend as the baseline for future MRR forecasting.
+- Review the strongest growth months to identify repeatable business conditions.
+- Compare stronger and weaker months to find where growth momentum slowed.
+- Set monthly MRR targets based on the actual 2024 movement pattern.
+- Create early-warning checks for months where MRR growth starts to slow.
+
+
 <br><br>
 
 ### BQ04 - What drove the 2024 MRR movement?
@@ -146,6 +156,17 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 - **Reactivation MRR** was a minor driver. It stays much lower than new MRR and expansion MRR, and appears near zero in several months.
 - **Churn** was the main negative pressure. The churn line is generally the deepest negative line on the chart. August was the clearest churn problem month. Churn drops to its lowest point around August.
 - **Contraction** was negative but generally smaller than churn. It stayed below zero, but usually closer to zero than churn.
+
+<br>
+
+**Business Implications**
+Keep supporting new customer acquisition, but check whether new MRR is retained after signup.
+Study the June expansion spike to identify what drove upgrades or plan expansion.
+Build expansion playbooks around the customer types or plans that contributed most to Expansion MRR.
+Treat reactivation as a secondary lever because it was much smaller than New MRR and Expansion MRR.
+Prioritize churn reduction before contraction reduction because churn was the larger negative pressure.
+Investigate August churn first, broken down by plan, customer cohort, subscription age, and customer segment.
+Use the driver breakdown to decide where growth work should go: acquisition, expansion, or churn prevention.
 
 <br><br>
 

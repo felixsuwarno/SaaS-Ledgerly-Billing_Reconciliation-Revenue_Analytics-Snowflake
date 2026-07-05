@@ -151,7 +151,7 @@ Finance would use the 250-row output to review each invoice with a reconciliatio
 
 <br>
 
-**Business Implication for BQ03 + BQ04**
+#### Business Implications for BQ03 + BQ04
 
 Ledgerly should use the monthly MRR trend to identify when revenue momentum strengthened or weakened, then use the MRR driver breakdown to decide which lever to act on. The company should protect the strongest positive drivers, especially New MRR and Expansion MRR, while prioritizing churn reduction because churn was the largest negative pressure on recurring revenue.
 
@@ -209,8 +209,7 @@ Any customer with MRR > 0 in December 2023 is included in the base, even if thei
 - **Churn was usually the larger negative driver.** Across most cohorts, churn took more starting MRR away than contraction.
 <br>
 
-**Business Implications**
-Business implications / What to do
+#### Business Implications for BQ05 + BQ06
 
 - **Launch churn-prevention plays for high-churn cohorts.** Churn removed more starting MRR than contraction in most cohorts, so Ledgerly should focus on preventing customers from going to zero through renewal outreach, payment recovery, cancellation-save offers, and usage-based intervention.
 - **Create downgrade-prevention offers for high-contraction cohorts.** Contraction is a different problem from churn. For cohorts with heavy contraction, Ledgerly should offer better downgrade paths, right-sized plans, pricing adjustments, or temporary retention offers before customers cut MRR sharply.

@@ -8,7 +8,7 @@ End-to-end SaaS billing analytics project analyzing synthetic Stripe-style billi
 
 <br><br>
 
-➤ Project Purpose :<br>
+➤ **Project Purpose :**<br>
 
 **Revenue analytics** breaks into tasks that look unrelated on the surface. Checking whether Stripe settled the right amount feels nothing like calculating NRR by cohort. Tracing a chargeback back to an old invoice feels nothing like decomposing MRR movement into new, expansion, contraction, and churn.
 

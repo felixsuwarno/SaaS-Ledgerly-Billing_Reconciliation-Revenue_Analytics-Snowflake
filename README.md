@@ -195,6 +195,16 @@ Query logic:
 
 <br>
 
+<p align="left">
+  <b>
+    <a href="SQL/BQ04_MRR_MOVEMENT_DRIVERS_2024.sql">
+      BQ04_MRR_MOVEMENT_DRIVERS_2024.sql - Identify the MRR movement of each subscription and aggregate them on monthly basis
+    </a>
+  </b>
+</p>
+
+<br>
+
 **Chart**
 <p align="left">
   <img src="Charts/BQ04_v2.png" width="100%">

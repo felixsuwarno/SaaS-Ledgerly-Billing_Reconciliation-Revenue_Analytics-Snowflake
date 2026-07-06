@@ -238,6 +238,33 @@ Actions:
 
 <br>
 
+Query logic:
+<p align="left">
+  <b>
+    <a href="SQL/BQ05A_PAID_SIGNUP_COHORT_BY_CUSTOMER.sql">
+      BQ05A_PAID_SIGNUP_COHORT_BY_CUSTOMER.sql - Identify Subscription's first paid signup events prior to 2024
+    </a>
+  </b>
+</p>
+
+<p align="left">
+  <b>
+    <a href="SQL/BQ05B_CUSTOMER_NRR_BASE_2024.sql">
+      BQ05B_CUSTOMER_NRR_BASE_2024.sql - Aggregate subscription's events to Customer's level ( each customer can have multiple subscriptions ) and find Customer's MRR movements.
+    </a>
+  </b>
+</p>
+
+<p align="left">
+  <b>
+    <a href="SQL/BQ05C_COHORT_NRR_2024.sql">
+      BQ05C_COHORT_NRR_2024.sql - 
+    </a>
+  </b>
+</p>
+
+<br>
+
 Cohorts are defined by each customer's first paid invoice month, covering January 2022 through December 2023.
 2024 year-end NRR is calculated as: December 2024 MRR / December 2023 MRR
 The denominator is December 2023 MRR — not a strict active membership filter. 

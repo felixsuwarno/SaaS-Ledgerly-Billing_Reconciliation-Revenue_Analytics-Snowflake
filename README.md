@@ -143,6 +143,8 @@ Query logic:
   <img src="Charts/BQ02.png" width="75%">
 </p> 
 
+<br>
+
 **Key Insights**
 - June chargebacks caused $1,738.25 in old invoice revenue loss.
 - Only 8 old invoices were affected. So this is a small-volume issue, not a large operational failure.
@@ -209,6 +211,8 @@ Query logic:
 <p align="left">
   <img src="Charts/BQ04_v2.png" width="100%">
 </p> 
+
+<br>
 
 **Key Insights**
 - **New MRR** was the most consistently strong positive driver. It stays high across the year and is usually above the other positive driver lines.
@@ -279,13 +283,15 @@ Cohorts are defined by each customer's first paid invoice month, covering Januar
 2024 year-end NRR is calculated as: December 2024 MRR / December 2023 MRR
 The denominator is December 2023 MRR — not a strict active membership filter. 
 Any customer with MRR > 0 in December 2023 is included in the base, even if their subscription ended during that month.
-  \  
+
 <br>
 
 **Chart**
 <p align="left">
   <img src="Charts/BQ05_v2.png" width="100%">
 </p> 
+
+<br>
 
 **Key Insights**
 - **Overall 2024 year-end NRR was slightly below full retention.** Across all customer cohorts, ending MRR was lower than starting MRR: 99.4% overall NRR.
@@ -318,10 +324,14 @@ Query logic:
   </b>
 </p>
 
+<br>
+
 **Chart**
 <p align="left">
   <img src="Charts/BQ06_v2.png" width="100%">
 </p> 
+
+<br>
 
 **Key Insights**
 - **Expansion was positive in every cohort.** Every paid signup cohort added expansion MRR, showing that retained customers generally grew over time.

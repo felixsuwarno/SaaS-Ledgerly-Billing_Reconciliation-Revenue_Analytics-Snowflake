@@ -242,26 +242,33 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ05A_PAID_SIGNUP_COHORT_BY_CUSTOMER.sql">
-      BQ05A_PAID_SIGNUP_COHORT_BY_CUSTOMER.sql - Identify Subscription's first paid signup events prior to 2024
+      BQ05A_PAID_SIGNUP_COHORT_BY_CUSTOMER.sql
     </a>
   </b>
 </p>
+- Identify Subscription's first paid signup events prior to 2024
+
+<br>
 
 <p align="left">
   <b>
     <a href="SQL/BQ05B_CUSTOMER_NRR_BASE_2024.sql">
-      BQ05B_CUSTOMER_NRR_BASE_2024.sql - Aggregate subscription's events to Customer's level ( each customer can have multiple subscriptions ) and break down Customer's detailed MRR movements.
+      BQ05B_CUSTOMER_NRR_BASE_2024.sql
     </a>
   </b>
 </p>
+- Aggregate subscription's events to Customer's level ( each customer can have multiple subscriptions ) and break down Customer's detailed MRR movements.
+
+<br>
 
 <p align="left">
   <b>
     <a href="SQL/BQ05C_COHORT_NRR_2024.sql">
-      BQ05C_COHORT_NRR_2024.sql - Aggregate Customer's NRR per monthly basis and calculate monthly NRR movement rate
+      BQ05C_COHORT_NRR_2024.sql
     </a>
   </b>
 </p>
+- Aggregate Customer's NRR per monthly basis and calculate monthly NRR movement rate
 
 <br>
 

@@ -158,6 +158,25 @@ Query logic:
 
 <br>
 
+Query logic:
+<p align="left">
+  <b>
+    <a href="SQL/BQ03A_SUBSCRIPTION_MRR_BY_MONTH_2024.sql">
+      BQ03A_SUBSCRIPTION_MRR_BY_MONTH_2024.sql - Prepare the MRR from each Subscription record.
+    </a>
+  </b>
+</p>
+
+<p align="left">
+  <b>
+    <a href="SQL/BQ03B_MRR_MONTHLY_RATE_OF_CHANGE_2024.sql">
+      BQ03B_MRR_MONTHLY_RATE_OF_CHANGE_2024.sql - Aggregate to Monthly MRR and calculate monthly MRR rate of change
+    </a>
+  </b>
+</p>
+
+<br>
+
 **Chart**
 <p align="left">
   <img src="Charts/BQ03.png" width="75%">

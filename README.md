@@ -194,7 +194,7 @@ Query logic:
 ### BQ04 - What drove the 2024 MRR movement?
 
 <br>
-
+Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ04_MRR_MOVEMENT_DRIVERS_2024.sql">

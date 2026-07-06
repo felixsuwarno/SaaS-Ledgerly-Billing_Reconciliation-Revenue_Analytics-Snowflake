@@ -250,7 +250,7 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ05B_CUSTOMER_NRR_BASE_2024.sql">
-      BQ05B_CUSTOMER_NRR_BASE_2024.sql - Aggregate subscription's events to Customer's level ( each customer can have multiple subscriptions ) and find Customer's MRR movements.
+      BQ05B_CUSTOMER_NRR_BASE_2024.sql - Aggregate subscription's events to Customer's level ( each customer can have multiple subscriptions ) and break down Customer's detailed MRR movements.
     </a>
   </b>
 </p>
@@ -258,7 +258,7 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ05C_COHORT_NRR_2024.sql">
-      BQ05C_COHORT_NRR_2024.sql - 
+      BQ05C_COHORT_NRR_2024.sql - Aggregate Customer's NRR per monthly basis and calculate monthly NRR movement rate
     </a>
   </b>
 </p>
@@ -269,7 +269,7 @@ Cohorts are defined by each customer's first paid invoice month, covering Januar
 2024 year-end NRR is calculated as: December 2024 MRR / December 2023 MRR
 The denominator is December 2023 MRR — not a strict active membership filter. 
 Any customer with MRR > 0 in December 2023 is included in the base, even if their subscription ended during that month.
-
+  \  
 <br>
 
 **Chart**
@@ -290,6 +290,23 @@ Any customer with MRR > 0 in December 2023 is included in the base, even if thei
 ### BQ06 - How did expansion, contraction, and churn affect 2024 year-end NRR by paid signup cohort?
 
 <br>
+
+Query logic:
+<p align="left">
+  <b>
+    <a href="SQL/BQ06A_CUSTOMER_NRR_MOVEMENT_2024.sql">
+      BQ06A_CUSTOMER_NRR_MOVEMENT_2024.sql
+    </a>
+  </b>
+</p>
+
+<p align="left">
+  <b>
+    <a href="SQL/BQ06B_COHORT_NRR_MOVEMENT_2024.sql">
+      BQ06B_COHORT_NRR_MOVEMENT_2024.sql
+    </a>
+  </b>
+</p>
 
 **Chart**
 <p align="left">

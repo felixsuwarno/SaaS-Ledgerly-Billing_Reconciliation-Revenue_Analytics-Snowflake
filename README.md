@@ -101,7 +101,13 @@ Query logic:
 <br>
 
 The main output is not a dashboard metric. It is an invoice-level exception report. <br>
-**Note** : the WHY can be seen from the column named **"GAP_REASON"**.
+**Note** : the WHY is spread across five independent columns instead of one 
+— HAS_NO_PROCESSOR_CHARGE, 
+— HAS_MULTIPLE_PROCESSOR_CHARGES, 
+— HAS_REFUND, 
+— HAS_DISPUTE, and 
+— BALANCE_REDUCTION_SEVERITY. 
+An invoice can carry more than one flag at once, so nothing gets hidden behind a single column.
 
 <p align="left">
   <b>

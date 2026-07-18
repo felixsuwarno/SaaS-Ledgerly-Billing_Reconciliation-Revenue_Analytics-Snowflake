@@ -101,7 +101,7 @@ Query logic:
 <br>
 
 The main output is not a dashboard metric. It is an invoice-level exception report. <br>
-**Note** : the WHY is spread across five independent columns instead of one 
+**Note** : the WHY is spread across five independent columns instead of one <br>
 — **HAS_NO_PROCESSOR_CHARGE**, <br>
 — **HAS_MULTIPLE_PROCESSOR_CHARGES**, <br>
 — **HAS_REFUND**, <br>
